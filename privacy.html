@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Route Redirector</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 720px; padding: 0 16px; color: #111; }
+    h1, h2 { color: #0b1c3d; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy – Route Redirector</h1>
+
+  <p>Route Redirector is a Chrome extension that lets you define simple HTTP/HTTPS redirect rules (including optional ports). All redirects are created and enforced locally in your browser. The extension does not collect, transmit, or share personal information.</p>
+
+  <h2>Data Storage</h2>
+  <p>
+    The extension stores only the redirect rules you configure yourself (rule name, source host/port, destination scheme/host/port, enabled state) using Chrome’s <code>storage.local</code> API.
+    This data never leaves your device, is not synced to external servers, and is not shared with third parties.
+  </p>
+
+  <h2>Permissions & Purpose</h2>
+  <ul>
+    <li><strong>storage</strong> – needed solely to remember your redirect rules across browser sessions.</li>
+    <li><strong>declarativeNetRequest</strong> – required to apply your rules to matching requests via Chrome’s built-in network rules engine.</li>
+    <li><strong>host permissions (&lt;all_urls&gt;)</strong> – ensures the redirect rules can match any site you specify.</li>
+  </ul>
+  <p>These permissions are used only to fulfill the extension’s single purpose: applying the redirects you configure.</p>
+
+  <h2>Tracking & Analytics</h2>
+  <p>The extension does not include telemetry, analytics, advertising, or remote code.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this policy or the extension, please reach out via the Chrome Web Store listing.</p>
+</body>
+</html>
